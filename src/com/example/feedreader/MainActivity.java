@@ -21,7 +21,7 @@ import com.example.feedreader.FeedReaderXmlParser.Entry;
 public class MainActivity extends Activity implements OnItemClickListener {
 
 	private ListView listivew;
-	private static final String URL = "http://feeds2.feedburner.com/TheTechnologyEdge";
+	private static final String URL = "YOUR URL TO FEEDS";
 	private ArrayList<com.example.feedreader.FeedReaderXmlParser.Entry> aa;
 
 	private GetXMLforURL getXMLForUrl;
